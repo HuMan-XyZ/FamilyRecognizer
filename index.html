@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Recognizer</title>
+</head>
+<body>
+<center>
+    
+<h1 id ="title">Family Recognizer</h1>
+<h4 id = "subtitle">This website recognizes family members.</h4>
+<br><br>
+<label for="#camera">Your Camera</label>
+<div id="camera"></div>
+<br><br>
+<label for="#result">Your Photo</label>
+<div id="result"><img contenteditable="false" src="TakePhoto.jpg"></div>
+<br><br>
+<button class="btn btn-success" onclick = "Click()">Take Photo</button>
+<button class="btn btn-primary" onclick = "Check()">Identify Photo</button>
+<br><br>
+<p style="font-size: 22px;" class="objectrecognized"> Member Recognized As: <span id = 'object_recognizedas'></span> </p>
+     <p style="font-size: 22px;" class="objectrecognized">Recognition Accuracy: <span id = 'object_accuracyofrecog'></span> </p>
+</center>
+</body>
+<script src="main.js"></script>
+
+</html>

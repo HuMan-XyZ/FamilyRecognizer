@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+
+body{
+    background-image: linear-gradient(45deg,cyan,skyblue);
+    background-size: cover;
+}
+
+#title {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#subtitle {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#camera{
+        border: 3.5px black ridge;
+        height: 280px;
+        width: 380px;
+        margin-top: 5px;
+      
+       
+}
+
+#result{
+    border: 3.5px black ridge;
+    height: 280px;
+    width: 380px;
+    margin-top: 5px;
+  
+   
+}
+
+.objectrecognized {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
